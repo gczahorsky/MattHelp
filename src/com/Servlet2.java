@@ -14,7 +14,7 @@ import java.io.*;
 public class Servlet2 extends HttpServlet {
 
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         if (request.getParameter("button1") != null) {
             System.out.println("WOO");
             System.out.flush();
